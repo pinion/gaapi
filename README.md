@@ -1,8 +1,8 @@
-gaapi
+gaapi 
 =====
 
 Simple start for using API's with Rails scaffolding
-
+Live programming at General Assembly API presentation
 
 API GET request:
 
