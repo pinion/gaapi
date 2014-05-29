@@ -34,7 +34,7 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    user_params.tap { |hs| hs.delete(:format) }
+    user_params.tap { |p| p.delete(:format) }
     @user = User.new(user_params)
 
 
